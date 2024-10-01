@@ -1,20 +1,17 @@
 {
   imports = [
-    ./bufferline.nix
     ./cmp.nix
     ./copilot-chat.nix
     ./git.nix
-    ./lightline.nix
+    ./mini.nix
     ./lsp/default.nix
     ./lsp/fidget.nix
-    ./lsp/ionide.nix
     ./lsp/none-ls.nix
     ./lsp/trouble.nix
     ./nvim-tree.nix
     ./options.nix
     ./treesitter.nix
     ./utils/auto-pairs.nix
-    ./utils/autosave.nix
     ./utils/blankline.nix
     ./utils/telescope.nix
     ./utils/toggleterm.nix
@@ -22,7 +19,14 @@
     ./utils/wilder.nix
   ];
 
-  colorschemes.dracula.enable = true;
+  colorschemes.gruvbox = {
+    enable = true;
+    settings = {
+      terminal_colors = true;
+      transparent_mode = true;
+    };
+  };
+
   plugins.web-devicons.enable = true;
 
   diagnostics = { virtual_lines.only_current_line = true; };

@@ -22,7 +22,7 @@
     smartcase = true;
     wildmode = "list:longest";
 
-    swapfile = false;
+    swapfile = true;
     undofile = true; # Build-in persistent undo
 
     termguicolors = lib.mkForce pkgs.stdenv.isLinux;
