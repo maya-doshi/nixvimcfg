@@ -11,5 +11,6 @@ pkgs.mkShell {
 
     # Tools
     ripgrep
+    meson
   ];
 }
