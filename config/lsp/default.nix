@@ -9,6 +9,8 @@
         nixd.enable = true;
         ruff-lsp.enable = true;
         vala-ls.enable = true;
+        eslint.enable = true;
+        denols.enable = true;
       };
       keymaps.lspBuf = {
         "gd" = "definition";
