@@ -11,6 +11,7 @@
         vala-ls.enable = true;
         eslint.enable = true;
         denols.enable = true;
+        ocamllsp.enable = true;
       };
       keymaps.lspBuf = {
         "gd" = "definition";
