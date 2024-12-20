@@ -8,7 +8,6 @@
         clangd.enable = true;
         gopls.enable = true;
         nixd.enable = true;
-        ruff-lsp.enable = true;
         vala-ls.enable = true;
         eslint.enable = true;
         denols.enable = true;
