@@ -4,6 +4,7 @@
       enable = true;
       servers = {
         bashls.enable = true;
+        basedpyright.enable = true;
         clangd.enable = true;
         gopls.enable = true;
         nixd.enable = true;
