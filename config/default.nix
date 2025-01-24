@@ -3,6 +3,7 @@
     ./cmp.nix
     ./copilot-chat.nix
     ./git.nix
+    ./guess-indent.nix
     ./mini.nix
     ./lsp/default.nix
     ./lsp/fidget.nix
