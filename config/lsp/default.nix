@@ -8,10 +8,9 @@
         clangd.enable = true;
         gopls.enable = true;
         nixd.enable = true;
-        vala-ls.enable = true;
+        vala_ls.enable = true;
         eslint.enable = true;
         denols.enable = true;
-        ocamllsp.enable = true;
       };
       keymaps.lspBuf = {
         "gd" = "definition";
@@ -21,6 +20,6 @@
         "K" = "hover";
       };
     };
-    rust-tools.enable = true;
+    rustaceanvim.enable = true;
   };
 }
