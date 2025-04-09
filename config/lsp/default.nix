@@ -11,6 +11,7 @@
         vala_ls.enable = true;
         eslint.enable = true;
         denols.enable = true;
+        svls.enable = true;
       };
       keymaps.lspBuf = {
         "gd" = "definition";
